@@ -22,7 +22,7 @@ pipeline {
                                 sshCredentials: [
                                     username: 'cloud_user',
                                     encryptedPassphrase: "$USERPASS"
-                                ], 
+                                ],
                                 transfers: [
                                     sshTransfer(
                                         sourceFiles: 'src/**',
@@ -51,7 +51,7 @@ pipeline {
                                 sshCredentials: [
                                     username: 'cloud_user',
                                     encryptedPassphrase: "$USERPASS"
-                                ], 
+                                ],
                                 transfers: [
                                     sshTransfer(
                                         sourceFiles: 'src/**',
